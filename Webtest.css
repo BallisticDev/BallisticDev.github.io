@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: ;
+    margin-left: 20px;
+}
+
+#ToDo {
+    position:absolute;
+    top: 100px;
+    left: 10%;
+    height: 250px;
+    width: 200px;
+}
+
+#ToDo:hover {
+    background-image: url('https://i.imgur.com/5UfuIwi.png');
+    height: 270px;
+    width: 220px;
+}
+
+
+One solution is to use also the first image as a background image like this:
+
+<div id="Library"></div>
+#Library {
+   background-image: url('LibraryTransparent.png');
+   height: 70px;
+   width: 120px;
+}
+
+#Library:hover {
+   background-image: url('LibraryHoverTrans.png');
+}

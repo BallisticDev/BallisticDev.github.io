@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: green;
+    margin-left: 20px;
+}
+
+p {
+    color: red;
+}
+
+img {
+position:absolute; TOP:100px; LEFT: 25%; WIDTH:200px; HEIGHT:250px" SRC="https://i.imgur.com/5UfuIwi.png"
+}
